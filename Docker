@@ -1,0 +1,6 @@
+FROM python
+# using python image from docker hub
+WORKDIR /Archanacode
+# creating and changing folder in docker image
+COPY Automate.py /Archanacode/
+CMD [ "python" , "Automate.py" ]
